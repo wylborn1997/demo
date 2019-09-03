@@ -1,0 +1,209 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-size: 12px;
+    color: #999;
+    list-style: none;
+}
+body {
+    background-color: #f8f8f8;
+}
+a {
+    text-decoration: none;
+}
+.basicinfo {
+    height:40px;
+}
+.basicinfo ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 5px;
+}
+.locaNav {
+    display: inline-block;
+    margin-left: 25px;
+}
+.loca {
+    color:#666;
+    background: #f4f4f4;
+    border:1px solid #e5e5e5;
+    border-radius:2px;
+    padding:2px 3px;
+}
+.customer {
+    color:#31bbac;
+    padding:0px 7px 0px 20px;
+}
+.basicinfo li a:hover{
+    color:#31bbac;
+}
+.nav1 {
+    display: inline-block;
+    margin-left: 525px;
+}
+.basicinfo .nav1 li{
+    margin-right: 25px;
+}
+.header {
+    padding:25px 20px 50px 20px;
+    background:#fff;
+}
+.header .icon1{
+    width:126px;
+    height: 46px;
+    margin-left:20px;
+}
+.searchSection {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+}
+.searchSection .searchBox {
+    width:452px;
+    height: 40px;
+    font-size:16px;
+    padding-left:10px;
+    border:1px solid #13d1be;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.searchSection .searchButton {
+    width:88px;
+    height:42px;
+    background-color: #13d1be;
+    border:none;
+    margin-left:-4px;
+    vertical-align:bottom;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* .searchSection input span {
+    background-image: 
+} */
+.sech-suggest ul {
+    margin-left:6px;
+}
+.sech-suggest ul li {
+    display: inline-block;
+    padding:5px 3px;
+}
+.smallnav1 {
+    display: inline-block;
+    margin-left:185px;
+}
+.smallnav1 ul li {
+    display:inline-block;
+    margin-right:10px;
+}
+.bigarea {
+    position: absolute;
+    left:40px;
+    top:140px;
+}
+.bignav {
+    display: inline-block;
+    width:230px;
+    height: 490px;
+    background:-webkit-linear-gradient(-90deg,rgba(2,181,157,.85) 2%,
+    rgba(22,146,183,.85) 100%);
+}
+.bignav .clasify {
+    color:#fff;
+    height:45px;
+    font-size: 16px;
+    line-height: 45px;
+    padding-left: 12px;
+}
+.bignav ul li {
+    height: 26px;
+    padding:1px 12px;
+}
+.bignav ul li a {
+    color:#fff;
+    font-size: 13px;
+}
+.toptext {
+    margin-top: 3px;
+}
+.topnav {
+    display: inline-block;
+    vertical-align:top;
+    padding-left:40px;
+}
+.topnav ul li {
+    display: inline-block;
+    line-height: 40px;
+    padding-right:40px;
+    padding-top:2px;
+}
+/* .topnav ul li:hover {
+    width:100px;
+    height: 10px;
+    background:rgba(255,255,255,.2);
+} */
+.topnav ul li a {
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.topnav ul li .mtwm:hover {
+    color:#fbc700;
+}
+.topnav ul li .mydy:hover {
+    color:#ed1e24;
+}
+.topnav ul li .sjrz:hover {
+    color: #31bbac;
+}
+
+.photoNav {
+    display:inline-block;
+}
+.photoNav {
+    display:inline-block;
+}
+.slidephoto {
+    position:absolute;
+    left:240px;
+    top:72px;
+    width:550px;
+    height:240px;
+    background-size:550px 240px;
+    background-image: url(../img/waimai1.png);
+}
+.smaphoto {
+    position:absolute;
+    left:800px;
+    top:72px;
+    width:150px;
+    height:240px;
+    background-size:150px 240px;
+    background-image: url(../img/waimai2.png);
+}
+.photoBtm div {
+    display: inline-block;
+    width:270px;
+    height:165px;
+    background-size:270px;
+}
+.left {
+    position:absolute;
+    left:240px;
+    top:325px;
+    background-image: url(../img/waimai3.png);
+}
+.middle {
+    position:absolute;
+    left:520px;
+    top:325px;
+    background-image: url(../img/waimai4.jpg);
+}
+.photoBtm .right {
+    position:absolute;
+    left:800px;
+    top:325px;
+    width:150px;
+    height:165px;
+    background-size:150px;
+    background-image: url(../img/waimai5.png);
+}
