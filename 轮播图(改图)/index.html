@@ -1,0 +1,78 @@
+<!-- 
+    <link rel="stylesheet" href="./src/css/base.css">
+    <script src="./src/js/base.js"></script>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./src/css/base.css">
+
+
+    <style>
+        .picB{
+            position: relative;
+            width: 800px;
+            height: 600px;
+            margin: auto;
+        }
+        .show {
+            border: 2px #fff solid;
+            border-radius: 10px;
+            box-shadow: 1px 1px 18px 4px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 480px;
+            width: 640px;
+        }
+
+        #pic_mid{
+            z-index: 3;
+            position: absolute;
+            left: 80px;
+            top: 60px;
+        }
+        #pic_left{
+            position: absolute;
+        }
+        #pic_lefts{
+            opacity: 0;
+            z-index: 10;
+            position: absolute;
+        }
+        #pic_right{
+            left: 160px;
+            top: 120px;
+            position: absolute;
+        }
+        #pic_rights{
+            opacity: 0;
+            z-index: 2;
+            left: 160px;
+            top: 120px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+        <div class="picB">
+            <div class="show" id="pic_lefts" style="background-image: url(./src/img/2.jpg)"></div>
+            <div class="show" id="pic_left" style="background-image: url(./src/img/2.jpg)"></div>
+            <div class="show" id="pic_mid" style="background-image: url(./src/img/1.jpg)"></div>
+            <div class="show" id="pic_right" style="background-image: url(./src/img/3.jpg)"></div>
+            <div class="show" id="pic_rights" style="background-image: url(./src/img/3.jpg)"></div>
+            <!-- <div class="show" id="pic_right" style="background-image: url(./src/img/3.jpg)"></div> -->
+        </div>
+
+
+
+        <script src="./src/js/Ametion3.js"></script>
+        <script src="./src/js/base.js"></script>
+    
+</body>
+</html>
